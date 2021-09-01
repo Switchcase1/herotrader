@@ -59,8 +59,8 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp-relay.sendinblue.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'ankitchugh006@gmail.com';                     //SMTP username
-    $mail->Password   = 'yspSwVNmUcEF6fIz';                               //SMTP password
+    $mail->Username   = '***@gmail.com';                     //SMTP username
+    $mail->Password   = '***';                               //SMTP password
     $mail->Port = 587; // TLS only
     $mail->SMTPSecure = 'tls'; // ssl is depracated `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
